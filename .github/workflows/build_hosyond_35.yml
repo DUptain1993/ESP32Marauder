@@ -44,7 +44,7 @@ jobs:
           git clone --depth 1 --branch 8.1.0 https://github.com/plerup/espsoftwareserial libraries_custom/espsoftwareserial
           git clone --depth 1 --branch 1.15.0 https://github.com/adafruit/Adafruit_BusIO libraries_custom/Adafruit_BusIO
           git clone --depth 1 --branch 1.0.2 https://github.com/adafruit/Adafruit_MAX1704X libraries_custom/Adafruit_MAX1704X
-          cp -r esp32_marauder/libraries/Adafruit_TCA8418 libraries_custom/Adafruit_TCA8418
+          cp -r libraries/Adafruit_TCA8418 libraries_custom/Adafruit_TCA8418
 
       - name: Configure TFT_eSPI
         run: |
